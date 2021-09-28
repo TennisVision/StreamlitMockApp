@@ -11,8 +11,8 @@ if __name__=="__main__":
     app = MultiApp()
 
     # Add all your application here
-    # app.add_app("ホーム", home.main)
-    # app.add_app("詳細", detail.main)
+    app.add_app("ホーム", home.main)
+    app.add_app("詳細", detail.main)
     app.add_app("トマトツリー", tomato.main)
 
     # The main app
