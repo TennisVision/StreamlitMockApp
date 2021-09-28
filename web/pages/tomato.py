@@ -12,7 +12,7 @@ def main():
 
     st.markdown("# タイプ診断")
     # https://docs.google.com/presentation/d/1N3t_ENq_4YE8ew9e2bexysBsGvqFoDPfpDvWdWUpCN0/edit?usp=sharing
-    st.image("src/web/assets/player_type.png", width=800)
+    st.image("web/assets/player_type.png", width=800)
     my_player_type = st.selectbox("あなたのタイプを選択してください", ["A", "B", "C", "D"])
 
     st.markdown("# 戦略策定")
